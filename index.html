@@ -5,11 +5,14 @@
   <meta charset="utf-8">
   <title>Simon</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 </head>
 
 <body>
-  <h1 id="level-title">Press A Key to Start</h1>
+  <h1 id="level-title">Simon Game</h1>
+  <p id="instructions">Remember the computer sequence and press the corresponding colour buttons to go to higher levels</p>
+  <button class="start-button">START</button>
   <div class="container">
     <div class="row">
       <div type="button" id="green" class="btn green"></div>
@@ -20,7 +23,7 @@
       <div type="button" id="blue" class="btn blue"></div>
     </div>
   </div>
-<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
 <script src="game.js"></script>
 </body>
 
